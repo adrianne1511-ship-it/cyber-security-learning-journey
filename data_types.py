@@ -8,11 +8,9 @@ The print () statements display values in the terminal.
 student_name = "Adrianne" # String
 student_age = 25 # Integer
 is_student = True # Boolean
-study_hours = 3.5 #Float
+study_hours = 3.5 # Float
 
 #Print the values of each variable
-print(student_name)
-print(student_age)
-print(is_student)
-print(study_hours)
+print(student_name, student_age, is_student, study_hours, sep=";", end=". These are the values of four variables.\n")
+
 
